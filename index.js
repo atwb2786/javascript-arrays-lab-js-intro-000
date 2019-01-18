@@ -31,4 +31,7 @@ function removeLastKitten() {
   return moreKittens;
 }
 
-function re// Add your functions and code here
+function removeFirstKitten() {
+  const moreKittens = kittens.slice(1);
+  return moreKittens;
+}// Add your functions and code here
